@@ -11,7 +11,7 @@ public class Area {
         radius = in.nextDouble();
 
         while (radius < 0){
-            System.out.println("The radius value is incorrect! Give me a new value!");
+            System.out.println("The radius value is under 0! Give me a new value!");
             radius = in.nextDouble();
         }
         area = radius * radius * 3.14;
