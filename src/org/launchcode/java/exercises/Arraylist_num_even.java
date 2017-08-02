@@ -18,5 +18,6 @@ public class Arraylist_num_even {
             }
         }
         System.out.println(total);
+        System.out.println(numbers);
     }
 }
